@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ThermaHive June Update</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    @media only screen and (max-width: 620px) {
+      .outer-pad { padding: 0 !important; }
+      .main-card { border-radius: 0 !important; width: 100% !important; }
+      .hero-td   { padding: 36px 20px 32px !important; }
+      .hero-h1   { font-size: 26px !important; }
+      .hero-sub  { font-size: 14px !important; }
+      .pad-cell  { padding-left: 20px !important; padding-right: 20px !important; }
+      .two-col-left  { display: block !important; width: 100% !important; padding: 0 0 20px 0 !important; }
+      .two-col-right { display: block !important; width: 100% !important; padding: 0 !important; }
+      .cta-link  { display: block !important; text-align: center !important; }
+      .footer-td { padding: 20px !important; }
+    }
+  </style>
+</head>
+<body style="margin:0; padding:0; background-color:#f5f5f0; font-family:'DM Sans',Arial,sans-serif;">
+
+  <!-- Email wrapper -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f5f5f0;">
+    <tr>
+      <td align="center" class="outer-pad" style="padding:32px 16px;">
+
+        <!-- Main card -->
+        <table class="main-card" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08);">
+
+          <!-- Header / Hero -->
+          <tr>
+            <td class="hero-td" background="https://thermahive.net/wp-content/uploads/2026/05/IMG_0781.jpg"
+                style="background: linear-gradient(135deg, rgba(13,43,26,0.88) 20%, rgba(0,150,64,0.78) 60%), url('https://thermahive.net/wp-content/uploads/2026/05/IMG_0781.jpg') center center / cover no-repeat; background-color:#0D2B1A; padding:48px 40px 40px 40px; text-align:center;">
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; font-weight:600; letter-spacing:2px; color:#a8e6bf; text-transform:uppercase;">ThermaHive Field Update</p>
+              <h1 class="hero-h1" style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:36px; font-weight:700; color:#ffffff; line-height:1.2;">The Science Is There.</h1>
+              <p class="hero-sub" style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:16px; color:#c8f0d8; line-height:1.6;">June 2026 | What we're seeing in the field is hard to ignore.</p>
+            </td>
+          </tr>
+
+          <!-- Intro -->
+          <tr>
+            <td class="pad-cell" style="padding:40px 40px 0 40px;">
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:16px; color:#1a1a1a; line-height:1.7;">
+                We have a lot to share this month. Field season is well underway, we've had some fascinating observations from our testers, our engineering team has been hard at work, and V2 development is moving faster than expected.
+              </p>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:16px; color:#1a1a1a; line-height:1.7;">
+                Let's get into it.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="border-top:2px solid #e8f5ee;"></td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Section: Field Observations -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">Field Observations</p>
+              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Something Interesting Is Happening</h2>
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                As we continue gathering data across our tester network, a trend has emerged that we think is worth sharing. The hives being treated with ThermaHive are looking noticeably more robust than untreated hives. Inspections are showing more young larvae, stronger population counts, and some of our testers have started reporting the same.
+              </p>
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                To give you a sense of what we're seeing: three of our ThermaHive-treated hives already have two honey supers on them. Two others are brand new colonies with queens born in May of this year that did not receive their first treatment until the end of May, and they are already showing strong, healthy development.
+              </p>
+              <p style="margin:0 0 24px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                We want to be clear: correlation does not equal causation, and we are not making any claims about ThermaHive improving colony performance. But it is a trend we are actively tracking, and we look forward to sharing more as our data builds.
+              </p>
+
+              <!-- Pull quote -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f0faf5; border-left:4px solid #009640; border-radius:0 6px 6px 0; margin-bottom:24px;">
+                <tr>
+                  <td style="padding:20px 24px;">
+                    <p style="margin:0; font-family:'Playfair Display',Georgia,serif; font-size:20px; color:#0D2B1A; line-height:1.5; font-style:italic;">"The science is there."</p>
+                    <p style="margin:8px 0 0 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#666666;">Storm, Master Beekeeper and Maryland State Bee Inspector</p>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                We also want to share one story we find particularly fascinating. One of our hives was queenless at the time of its first ThermaHive treatment, though queen cells were present. Since that treatment, the hive now has a thriving, mated, and laying queen. That means this queen experienced ThermaHive heat while still inside a queen cell, before she ever had the chance to mate or be born.
+              </p>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                We have no way to draw conclusions from one hive and one queen, but we think this will be a valuable long-term data point as we study how ThermaHive affects colony development over time.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Photo block: Field / hive inspection -->
+          <tr>
+            <td class="pad-cell" style="padding:24px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
+                <tr>
+                  <td style="padding:10px 10px; text-align:center; border-radius:18px; overflow:hidden;">
+                    <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_1301.jpg" alt="Field hive inspection" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="border-top:2px solid #e8f5ee;"></td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Section: Firmware + OTA -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">Software Update</p>
+              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">A Bug, A Fix, and a Big New Feature</h2>
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                We want to be transparent with our community: at the end of May, we identified a bug in the unit's firmware. There were some growing pains as expected with a V1 product, but our engineering team put in the work, tracked down the issue, and got it resolved. We have since been working with our testers to get every unit updated.
+              </p>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                And here is the exciting part: with this update comes a major capability upgrade. Units can now receive firmware updates wirelessly, over WiFi. No more connecting to a computer. Future improvements can be pushed out to your unit with ease. This is a meaningful step forward in how we support our tester community.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Photo block: Firmware / unit update -->
+          <tr>
+            <td class="pad-cell" style="padding:24px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
+                <tr>
+                  <td style="padding:10px 10px; text-align:center; border-radius:18px; overflow:hidden;">
+                    <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_19391.jpg" alt="bee drinking honey" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="border-top:2px solid #e8f5ee;"></td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Section: Coming Up (two-col on desktop, stacked on mobile) -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td class="two-col-left" style="padding:0 8px 0 0; vertical-align:top; width:50%;">
+                    <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">What's Next</p>
+                    <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">More Data On the Way</h2>
+                    <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                      We are heading into the field this week for mite washes on several of our hives following their second treatment sessions. We are eager to see how the data looks and will share results in an upcoming update. Stay tuned.
+                    </p>
+                  </td>
+                  <td class="two-col-right" style="padding:0 0 0 8px; vertical-align:top; width:50%;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
+                      <tr>
+                        <td style="padding:10px 10px; text-align:center; border-radius:18px; overflow:hidden;">
+                          <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_2014-2.jpg" alt="hive portrait" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="border-top:2px solid #e8f5ee;"></td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Section: V2 Hardware -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">V2 Development</p>
+              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Smaller, Smarter, Solar-Ready</h2>
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                V2 development is moving along and we have some exciting details to share.
+              </p>
+
+              <!-- V2 feature list using table bullets -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
+                <tr>
+                  <td style="padding:0 0 12px 0; vertical-align:top;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                          <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
+                        </td>
+                        <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                          <strong>Smaller, sleeker design.</strong> We are redesigning the bottom box to fit a standard Langstroth medium super, and will offer both 8-frame and 10-frame options. V2 will be a much more streamlined form factor.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0 0 12px 0; vertical-align:top;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                          <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
+                        </td>
+                        <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                          <strong>Wireless sensor design is complete.</strong> The design is finalized and is ready to move into production for testing ahead of V2's release. The wireless sensor is designed to give you the ability to place multiple sensors throughout the hive for better data coverage, with less hassle.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0 0 12px 0; vertical-align:top;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                          <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
+                        </td>
+                        <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                          <strong>Solar battery accessory</strong> will be compatible with both V1 and V2. No outlet, no problem.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0 0 12px 0; vertical-align:top;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                          <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
+                        </td>
+                        <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                          <strong>BroodMinder integration is in the works.</strong> We are actively developing native BroodMinder connectivity and are targeting V2's release as the milestone for that integration to be ready.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:0; vertical-align:top;">
+                    <table cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                          <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
+                        </td>
+                        <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                          <strong>Pre-orders are expected to open in October 2026.</strong> You can join the waitlist now to be the first to know.
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <!-- CTA Button -->
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-top:24px; margin-bottom:8px;">
+                <tr>
+                  <td align="center">
+                    <a class="cta-link" href="https://thermahive.net/pre-order-v2/" style="display:inline-block; background-color:#009640; color:#ffffff; font-family:'DM Sans',Arial,sans-serif; font-size:15px; font-weight:600; text-decoration:none; padding:14px 32px; border-radius:6px;">Join the V2 Waitlist</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="border-top:2px solid #e8f5ee;"></td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Section: Team + Events -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">Team and Events</p>
+              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Updates from the ThermaHive Team</h2>
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                As many of you know from our last letter, our R&amp;D engineer, Terrence Pierce, was accepted into Cornell University's PhD program. We are excited to share that Terrence will be making the move to Cornell in mid to late July. He will be staying on board as part of the ThermaHive team and will continue to contribute when he is able. We are incredibly proud of him and glad to still have him in our corner.
+              </p>
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                On the events front: we have two exciting speaking opportunities coming up in September. As previously announced, we will be presenting at the DCB Alliance meeting in mid September. We are also thrilled to share that ThermaHive will be speakers at the NorCal Bee Expo in Anderson, California in early September. It will be the first NorCal Bee Expo ever and we are honored to be part of it.
+              </p>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                September is shaping up to be a big month for us, and we hope to see some of you there.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                <tr><td style="border-top:2px solid #e8f5ee;"></td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Closing -->
+          <tr>
+            <td class="pad-cell" style="padding:32px 40px 40px 40px;">
+              <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                Every inspection, every treatment, every data point gets us closer to something that could genuinely change beekeeping. Thank you for following along and for being part of what we are building.
+              </p>
+              <p style="margin:0 0 32px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                More updates coming soon.
+              </p>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                With excitement,<br/>
+                <span style="color:#009640; font-size:13px;">ThermaHive, LLC</span>
+              </p>
+            </td>
+          </tr>
+
+          <!-- Footer -->
+          <tr>
+            <td class="footer-td" style="background-color:#0D2B1A; padding:24px 40px; text-align:center;">
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#a8e6bf;">
+                <a href="https://www.thermahive.net" style="color:#a8e6bf; text-decoration:none;">thermahive.net</a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://www.instagram.com/thermahive" style="color:#a8e6bf; text-decoration:none;">Instagram</a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://www.facebook.com/thermahive" style="color:#a8e6bf; text-decoration:none;">Facebook</a>
+                &nbsp;&bull;&nbsp;
+                <a href="https://www.tiktok.com/@thermahive" style="color:#a8e6bf; text-decoration:none;">TikTok</a>
+              </p>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:11px; color:#5a8a6a; line-height:1.5;">
+                You're receiving this because you subscribed to ThermaHive updates.<br/>
+                <a href="#" style="color:#5a8a6a;">Unsubscribe</a>
+              </p>
+            </td>
+          </tr>
+
+        </table>
+        <!-- /Main card -->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
