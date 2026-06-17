@@ -7,16 +7,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
   <style>
     @media only screen and (max-width: 620px) {
-      .outer-pad { padding: 0 !important; }
-      .main-card { border-radius: 0 !important; width: 100% !important; }
-      .hero-td   { padding: 36px 20px 32px !important; }
-      .hero-h1   { font-size: 26px !important; }
-      .hero-sub  { font-size: 14px !important; }
-      .pad-cell  { padding-left: 20px !important; padding-right: 20px !important; }
-      .two-col-left  { display: block !important; width: 100% !important; padding: 0 0 20px 0 !important; }
-      .two-col-right { display: block !important; width: 100% !important; padding: 0 !important; }
-      .cta-link  { display: block !important; text-align: center !important; }
-      .footer-td { padding: 20px !important; }
+      .outer-pad  { padding: 0 !important; }
+      .main-card  { border-radius: 0 !important; width: 100% !important; }
+      .hero-td    { padding: 36px 20px 32px !important; }
+      .hero-h1    { font-size: 26px !important; }
+      .hero-sub   { font-size: 14px !important; }
+      .pad-cell   { padding-left: 20px !important; padding-right: 20px !important; }
+      .cta-link   { display: block !important; text-align: center !important; padding: 14px 20px !important; }
+      .footer-td  { padding: 20px !important; }
+      .section-h2 { font-size: 20px !important; }
     }
   </style>
 </head>
@@ -28,7 +27,7 @@
       <td align="center" class="outer-pad" style="padding:32px 16px;">
 
         <!-- Main card -->
-        <table class="main-card" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08);">
+        <table class="main-card" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:600px; width:100%; background-color:#ffffff; border-radius:8px; overflow:hidden; box-shadow:0 2px 12px rgba(0,0,0,0.08);">
 
           <!-- Header / Hero -->
           <tr>
@@ -65,7 +64,7 @@
           <tr>
             <td class="pad-cell" style="padding:32px 40px 0 40px;">
               <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">Field Observations</p>
-              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Something Interesting Is Happening</h2>
+              <h2 class="section-h2" style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Something Interesting Is Happening</h2>
               <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
                 As we continue gathering data across our tester network, a trend has emerged that we think is worth sharing. The hives being treated with ThermaHive are looking noticeably more robust than untreated hives. Inspections are showing more young larvae, stronger population counts, and some of our testers have started reporting the same.
               </p>
@@ -95,12 +94,12 @@
             </td>
           </tr>
 
-          <!-- Photo block: Field / hive inspection -->
+          <!-- Photo: Field / hive inspection -->
           <tr>
             <td class="pad-cell" style="padding:24px 40px 0 40px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
                 <tr>
-                  <td style="padding:10px 10px; text-align:center; border-radius:18px; overflow:hidden;">
+                  <td style="padding:10px; text-align:center; border-radius:18px; overflow:hidden;">
                     <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_1301.jpg" alt="Field hive inspection" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
                   </td>
                 </tr>
@@ -121,7 +120,7 @@
           <tr>
             <td class="pad-cell" style="padding:32px 40px 0 40px;">
               <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">Software Update</p>
-              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">A Bug, A Fix, and a Big New Feature</h2>
+              <h2 class="section-h2" style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">A Bug, A Fix, and a Big New Feature</h2>
               <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
                 We want to be transparent with our community: at the end of May, we identified a bug in the unit's firmware. There were some growing pains as expected with a V1 product, but our engineering team put in the work, tracked down the issue, and got it resolved. We have since been working with our testers to get every unit updated.
               </p>
@@ -131,12 +130,12 @@
             </td>
           </tr>
 
-          <!-- Photo block: Firmware / unit update -->
+          <!-- Photo: Firmware / unit update -->
           <tr>
             <td class="pad-cell" style="padding:24px 40px 0 40px;">
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
                 <tr>
-                  <td style="padding:10px 10px; text-align:center; border-radius:18px; overflow:hidden;">
+                  <td style="padding:10px; text-align:center; border-radius:18px; overflow:hidden;">
                     <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_19391.jpg" alt="bee drinking honey" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
                   </td>
                 </tr>
@@ -153,26 +152,24 @@
             </td>
           </tr>
 
-          <!-- Section: Coming Up (two-col on desktop, stacked on mobile) -->
+          <!-- Section: What's Next (single-column, always stacked) -->
           <tr>
             <td class="pad-cell" style="padding:32px 40px 0 40px;">
-              <table width="100%" cellpadding="0" cellspacing="0" border="0">
+              <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">What's Next</p>
+              <h2 class="section-h2" style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">More Data On the Way</h2>
+              <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
+                We are heading into the field this week for mite washes on several of our hives following their second treatment sessions. We are eager to see how the data looks and will share results in an upcoming update. Stay tuned.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Photo: What's Next hive portrait (full width row, always below text) -->
+          <tr>
+            <td class="pad-cell" style="padding:20px 40px 0 40px;">
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
                 <tr>
-                  <td class="two-col-left" style="padding:0 8px 0 0; vertical-align:top; width:50%;">
-                    <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">What's Next</p>
-                    <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">More Data On the Way</h2>
-                    <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
-                      We are heading into the field this week for mite washes on several of our hives following their second treatment sessions. We are eager to see how the data looks and will share results in an upcoming update. Stay tuned.
-                    </p>
-                  </td>
-                  <td class="two-col-right" style="padding:0 0 0 8px; vertical-align:top; width:50%;">
-                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#e8f5ee; border:2px dashed #009640; border-radius:20px;">
-                      <tr>
-                        <td style="padding:10px 10px; text-align:center; border-radius:18px; overflow:hidden;">
-                          <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_2014-2.jpg" alt="hive portrait" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
-                        </td>
-                      </tr>
-                    </table>
+                  <td style="padding:10px; text-align:center; border-radius:18px; overflow:hidden;">
+                    <img src="https://thermahive.net/wp-content/uploads/2026/06/IMG_2014-2.jpg" alt="Hive portrait" width="100%" style="display:block; border:0; outline:none; text-decoration:none; max-width:100%; height:auto; border-radius:18px;" />
                   </td>
                 </tr>
               </table>
@@ -192,18 +189,18 @@
           <tr>
             <td class="pad-cell" style="padding:32px 40px 0 40px;">
               <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">V2 Development</p>
-              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Smaller, Smarter, Solar-Ready</h2>
+              <h2 class="section-h2" style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Smaller, Smarter, Solar-Ready</h2>
               <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
                 V2 development is moving along and we have some exciting details to share.
               </p>
 
-              <!-- V2 feature list using table bullets -->
+              <!-- V2 feature list -->
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom:16px;">
                 <tr>
                   <td style="padding:0 0 12px 0; vertical-align:top;">
-                    <table cellpadding="0" cellspacing="0" border="0">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                        <td width="20" style="padding:0 12px 0 0; vertical-align:top;">
                           <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
                         </td>
                         <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
@@ -215,9 +212,9 @@
                 </tr>
                 <tr>
                   <td style="padding:0 0 12px 0; vertical-align:top;">
-                    <table cellpadding="0" cellspacing="0" border="0">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                        <td width="20" style="padding:0 12px 0 0; vertical-align:top;">
                           <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
                         </td>
                         <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
@@ -229,9 +226,9 @@
                 </tr>
                 <tr>
                   <td style="padding:0 0 12px 0; vertical-align:top;">
-                    <table cellpadding="0" cellspacing="0" border="0">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                        <td width="20" style="padding:0 12px 0 0; vertical-align:top;">
                           <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
                         </td>
                         <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
@@ -243,9 +240,9 @@
                 </tr>
                 <tr>
                   <td style="padding:0 0 12px 0; vertical-align:top;">
-                    <table cellpadding="0" cellspacing="0" border="0">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                        <td width="20" style="padding:0 12px 0 0; vertical-align:top;">
                           <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
                         </td>
                         <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
@@ -257,9 +254,9 @@
                 </tr>
                 <tr>
                   <td style="padding:0; vertical-align:top;">
-                    <table cellpadding="0" cellspacing="0" border="0">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
                       <tr>
-                        <td style="padding:0 12px 0 0; vertical-align:top;">
+                        <td width="20" style="padding:0 12px 0 0; vertical-align:top;">
                           <div style="width:8px; height:8px; background-color:#009640; border-radius:50%; margin-top:6px;"></div>
                         </td>
                         <td style="font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
@@ -295,7 +292,7 @@
           <tr>
             <td class="pad-cell" style="padding:32px 40px 0 40px;">
               <p style="margin:0 0 8px 0; font-family:'DM Sans',Arial,sans-serif; font-size:12px; font-weight:600; letter-spacing:2px; color:#009640; text-transform:uppercase;">Team and Events</p>
-              <h2 style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Updates from the ThermaHive Team</h2>
+              <h2 class="section-h2" style="margin:0 0 16px 0; font-family:'Playfair Display',Georgia,serif; font-size:24px; color:#0D2B1A; line-height:1.3;">Updates from the ThermaHive Team</h2>
               <p style="margin:0 0 16px 0; font-family:'DM Sans',Arial,sans-serif; font-size:15px; color:#333333; line-height:1.7;">
                 As many of you know from our last letter, our R&amp;D engineer, Terrence Pierce, was accepted into Cornell University's PhD program. We are excited to share that Terrence will be making the move to Cornell in mid to late July. He will be staying on board as part of the ThermaHive team and will continue to contribute when he is able. We are incredibly proud of him and glad to still have him in our corner.
               </p>
