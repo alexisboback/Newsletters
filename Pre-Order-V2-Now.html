@@ -9,12 +9,12 @@
   @media only screen and (max-width: 620px) {
     .outer-pad   { padding: 0 !important; }
     .main-card   { border-radius: 0 !important; width: 100% !important; }
-    .hero-td     { padding: 36px 20px 32px !important; }
+    .hero-td     { padding: 36px 20px 32px !important; border-radius: 0 !important; }
     .hero-h1     { font-size: 26px !important; }
     .hero-sub    { font-size: 13px !important; }
     .pad-cell    { padding-left: 20px !important; padding-right: 20px !important; }
     .section-h2  { font-size: 19px !important; }
-    .footer-td   { padding: 20px !important; }
+    .footer-td   { padding: 20px !important; border-radius: 0 !important; }
     .logo-td     { padding: 14px 20px !important; }
     .stack-td    { display: block !important; width: 100% !important; padding-left: 0 !important; padding-right: 0 !important; }
     .stack-spacer{ display: none !important; }
@@ -29,19 +29,21 @@
     <tr>
       <td align="center" class="outer-pad" style="padding:40px 24px;">
 
-        <table class="main-card" width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width:860px; width:100%; background-color:#ffffff; border-radius:6px; overflow:hidden;">
-
-          <!-- PRE-HEADER -->
+        <!-- PRE-HEADER (sits on page background, above the card) -->
+        <table class="main-card" width="900" cellpadding="0" cellspacing="0" border="0" style="max-width:900px; width:900px;">
           <tr>
             <td style="padding:0 0 12px 0; text-align:center; font-family:'DM Sans',Arial,sans-serif; font-size:11px; letter-spacing:2.5px; text-transform:uppercase; color:#5a7a62; font-weight:400;">
               ThermaHive &bull; July 2026 &bull; V2 Pre-Order
             </td>
           </tr>
+        </table>
+
+        <table class="main-card" width="900" cellpadding="0" cellspacing="0" border="0" style="max-width:900px; width:900px; background-color:#ffffff; border-radius:6px; overflow:hidden;">
 
           <!-- HERO -->
           <tr>
             <td class="hero-td" background="https://thermahive.net/wp-content/uploads/2026/07/IMG_2845-1.jpg"
-                style="background: linear-gradient(to bottom, rgba(10,35,20,0.30) 0%, rgba(10,35,20,0.80) 100%), url('https://thermahive.net/wp-content/uploads/2026/07/IMG_2845-1.jpg') center 45% / cover no-repeat; background-color:#0a2314; padding:60px 44px 40px 44px;">
+                style="border-radius:6px 6px 0 0; background: linear-gradient(to bottom, rgba(10,35,20,0.30) 0%, rgba(10,35,20,0.80) 100%), url('https://thermahive.net/wp-content/uploads/2026/07/IMG_2845-1.jpg') center 45% / cover no-repeat; background-color:#0a2314; padding:60px 44px 40px 44px;">
               <p style="margin:0 0 10px 0; font-family:'DM Sans',Arial,sans-serif; font-size:10.5px; letter-spacing:3px; text-transform:uppercase; color:#74c894; font-weight:500;">It's Here</p>
               <h1 class="hero-h1" style="margin:0 0 14px 0; font-family:'Playfair Display',Georgia,serif; font-size:38px; font-weight:900; color:#ffffff; line-height:1.1;">V2 Pre-Orders<br /><em style="color:#f4d47a; font-style:italic;">Are Open.</em></h1>
               <p class="hero-sub" style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:14.5px; color:#e9f3ec; line-height:1.65; font-weight:300; max-width:440px;">The ground-up redesign we've been building toward all year is now available to reserve. Plus, learn how to build your own solar battery to run it off-grid.</p>
@@ -153,7 +155,7 @@
                 </tr>
                 <tr>
                   <td class="feat-img-td" width="42%" style="padding:16px; vertical-align:middle;">
-                    <a href="https://thermahive.net/product/v2/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/06/V2-Complete-1.jpg?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive V2 Complete Kit" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:6px;" /></a>
+                    <a href="https://thermahive.net/product/v2/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/06/V2-Complete-1.jpg?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive V2 Complete Kit" width="100%" style="display:block; border:0; width:100%; max-width:100%; height:auto; border-radius:6px;" /></a>
                   </td>
                   <td class="feat-body-td" width="58%" style="padding:16px 32px 24px 0; vertical-align:middle; background-color:#f4f8f5;">
                     <h3 style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:22px; font-weight:700; color:#0d2b1a;">ThermaHive V2</h3>
@@ -168,10 +170,10 @@
                 <tr>
                   <td class="stack-td" width="50%" valign="top" style="padding:0 9px 18px 0;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
-                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-bottom-box-frame/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Bottom-Box-Frame.jpg?w=2390&ssl=1" alt="ThermaHive V2 Bottom Box Frame" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 10px 0 0;" /></a></td></tr>
+                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-bottom-box-frame/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Bottom-Box-Frame.jpg?w=2390&ssl=1" alt="ThermaHive V2 Bottom Box Frame" width="100%" style="display:block; border:0; width:100%; height:230px; object-fit:cover; object-position:center; border-radius:10px 10px 0 0;" /></a></td></tr>
                       <tr><td align="center" style="padding:24px 26px 28px;">
                         <p style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:17px; font-weight:700; color:#0d2b1a;">Bottom Box Frame</p>
-                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6;">Scaling to another hive? Start here &mdash; the foundation that lets you expand affordably, hive by hive.</p>
+                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6; min-height:80px;">Scaling to another hive? Start here &mdash; the foundation that lets you expand affordably, hive by hive.</p>
                         <a href="https://thermahive.net/product/thermahive-v2-bottom-box-frame/" style="font-family:'DM Sans',Arial,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:0.3px; color:#009640; text-decoration:none;">Shop Now &rarr;</a>
                       </td></tr>
                     </table>
@@ -179,10 +181,10 @@
                   <td class="stack-spacer" width="18">&nbsp;</td>
                   <td class="stack-td" width="50%" valign="top" style="padding:0 0 18px 9px;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
-                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-bottom-box-kit/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Bottom-Box-Kit.jpg?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive V2 Bottom Box Kit" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 10px 0 0;" /></a></td></tr>
+                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-bottom-box-kit/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Bottom-Box-Kit.jpg?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive V2 Bottom Box Kit" width="100%" style="display:block; border:0; width:100%; height:230px; object-fit:cover; object-position:center; border-radius:10px 10px 0 0;" /></a></td></tr>
                       <tr><td align="center" style="padding:24px 26px 28px;">
                         <p style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:17px; font-weight:700; color:#0d2b1a;">Bottom Box Kit</p>
-                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6;">Want everything included from the start? The full bottom box bundle for an additional hive.</p>
+                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6; min-height:80px;">Want everything included from the start? The full bottom box bundle for an additional hive.</p>
                         <a href="https://thermahive.net/product/thermahive-v2-bottom-box-kit/" style="font-family:'DM Sans',Arial,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:0.3px; color:#009640; text-decoration:none;">Shop Now &rarr;</a>
                       </td></tr>
                     </table>
@@ -191,10 +193,10 @@
                 <tr>
                   <td class="stack-td" width="50%" valign="top" style="padding:0 9px 18px 0;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
-                      <tr><td><a href="https://thermahive.net/product/thermahive-top-box/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Gemini_Generated_Image_4acdon4acdon4acd.png?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive Top Box" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 10px 0 0;" /></a></td></tr>
+                      <tr><td><a href="https://thermahive.net/product/thermahive-top-box/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Gemini_Generated_Image_4acdon4acdon4acd.png?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive Top Box" width="100%" style="display:block; border:0; width:100%; height:230px; object-fit:cover; object-position:center; border-radius:10px 10px 0 0;" /></a></td></tr>
                       <tr><td align="center" style="padding:24px 26px 28px;">
                         <p style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:17px; font-weight:700; color:#0d2b1a;">Top Box</p>
-                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6;">Already have a bottom box running? Add a top box on its own to bring monitoring to another hive.</p>
+                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6; min-height:80px;">Already have a bottom box running? Add a top box on its own to bring monitoring to another hive.</p>
                         <a href="https://thermahive.net/product/thermahive-top-box/" style="font-family:'DM Sans',Arial,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:0.3px; color:#009640; text-decoration:none;">Shop Now &rarr;</a>
                       </td></tr>
                     </table>
@@ -202,10 +204,10 @@
                   <td class="stack-spacer" width="18">&nbsp;</td>
                   <td class="stack-td" width="50%" valign="top" style="padding:0 0 18px 9px;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
-                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-heater-insert/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Gemini_Generated_Image_butgy0butgy0butg.png?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive V2 Heater Insert" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 10px 0 0;" /></a></td></tr>
+                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-heater-insert/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Gemini_Generated_Image_butgy0butgy0butg.png?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive V2 Heater Insert" width="100%" style="display:block; border:0; width:100%; height:230px; object-fit:cover; object-position:center; border-radius:10px 10px 0 0;" /></a></td></tr>
                       <tr><td align="center" style="padding:24px 26px 28px;">
                         <p style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:17px; font-weight:700; color:#0d2b1a;">Heater Insert</p>
-                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6;">Need a replacement or spare for a hive that already has the box in place? Pick one up on its own.</p>
+                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6; min-height:80px;">Need a replacement or spare for a hive that already has the box in place? Pick one up on its own.</p>
                         <a href="https://thermahive.net/product/thermahive-v2-heater-insert/" style="font-family:'DM Sans',Arial,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:0.3px; color:#009640; text-decoration:none;">Shop Now &rarr;</a>
                       </td></tr>
                     </table>
@@ -214,10 +216,10 @@
                 <tr>
                   <td class="stack-td" width="50%" valign="top" style="padding:0 9px 0 0;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
-                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-top-box-heater-insert-bundle/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/TopBoxHeaterInsert.jpg?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive Top Box + Heater Insert Bundle" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 10px 0 0;" /></a></td></tr>
+                      <tr><td><a href="https://thermahive.net/product/thermahive-v2-top-box-heater-insert-bundle/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/TopBoxHeaterInsert.jpg?zoom=2&resize=266%2C266&ssl=1" alt="ThermaHive Top Box + Heater Insert Bundle" width="100%" style="display:block; border:0; width:100%; height:230px; object-fit:cover; object-position:center; border-radius:10px 10px 0 0;" /></a></td></tr>
                       <tr><td align="center" style="padding:24px 26px 28px;">
                         <p style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:17px; font-weight:700; color:#0d2b1a;">Top Box + Heater Insert Bundle</p>
-                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6;">Adding a hive that already has a bottom box in place? This bundle pairs the two at a better price.</p>
+                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6; min-height:80px;">Adding a hive that already has a bottom box in place? This bundle pairs the two at a better price.</p>
                         <a href="https://thermahive.net/product/thermahive-v2-top-box-heater-insert-bundle/" style="font-family:'DM Sans',Arial,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:0.3px; color:#009640; text-decoration:none;">Shop Now &rarr;</a>
                       </td></tr>
                     </table>
@@ -225,10 +227,10 @@
                   <td class="stack-spacer" width="18">&nbsp;</td>
                   <td class="stack-td" width="50%" valign="top" style="padding:0 0 0 9px;">
                     <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
-                      <tr><td><a href="https://thermahive.net/product/thermahive-wireless-sensors/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Wireless-2.jpg?w=4032&ssl=1" alt="ThermaHive Wireless Sensors" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 10px 0 0;" /></a></td></tr>
+                      <tr><td><a href="https://thermahive.net/product/thermahive-wireless-sensors/"><img src="https://i0.wp.com/thermahive.net/wp-content/uploads/2026/07/Wireless-2.jpg?w=4032&ssl=1" alt="ThermaHive Wireless Sensors" width="100%" style="display:block; border:0; width:100%; height:230px; object-fit:cover; object-position:center; border-radius:10px 10px 0 0;" /></a></td></tr>
                       <tr><td align="center" style="padding:24px 26px 28px;">
                         <p style="margin:0 0 12px 0; font-family:'Playfair Display',Georgia,serif; font-size:17px; font-weight:700; color:#0d2b1a;">Extra Wireless Sensors</p>
-                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6;">Want more data coverage inside the hive? Add extra sensors, and save when you buy them in packs.</p>
+                        <p style="margin:0 0 18px 0; font-family:'DM Sans',Arial,sans-serif; font-size:13px; color:#3a4f3c; line-height:1.6; min-height:80px;">Want more data coverage inside the hive? Add extra sensors, and save when you buy them in packs.</p>
                         <a href="https://thermahive.net/product/thermahive-wireless-sensors/" style="font-family:'DM Sans',Arial,sans-serif; font-size:12.5px; font-weight:600; letter-spacing:0.3px; color:#009640; text-decoration:none;">Shop Now &rarr;</a>
                       </td></tr>
                     </table>
@@ -248,7 +250,7 @@
               <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border:1px solid #dde9df; border-radius:10px;">
                 <tr>
                   <td class="feat-img-td" width="42%" style="vertical-align:middle;">
-                    <img src="https://thermahive.net/wp-content/uploads/2026/07/ThermaHive-Solar-Battery.jpg" alt="ThermaHive DIY Solar Battery" width="100%" style="display:block; border:0; max-width:100%; height:auto; border-radius:10px 0 0 10px;" />
+                    <img src="https://thermahive.net/wp-content/uploads/2026/07/ThermaHive-Solar-Battery.jpg" alt="ThermaHive DIY Solar Battery" width="100%" style="display:block; border:0; width:100%; max-width:100%; height:auto; border-radius:10px 0 0 10px;" />
                   </td>
                   <td class="feat-body-td" width="58%" style="padding:34px 38px; vertical-align:middle;">
                     <h3 style="margin:0 0 14px 0; font-family:'Playfair Display',Georgia,serif; font-size:22px; font-weight:700; color:#0d2b1a;">DIY Solar Battery Guide</h3>
@@ -294,7 +296,7 @@
 
           <!-- FOOTER -->
           <tr>
-            <td class="footer-td" align="center" style="background-color:#f4f8f5; padding:22px 44px; border-top:1px solid #dde9df;">
+            <td class="footer-td" align="center" style="background-color:#f4f8f5; padding:22px 44px; border-top:1px solid #dde9df; border-radius:0 0 6px 6px;">
               <p style="margin:0; font-family:'DM Sans',Arial,sans-serif; font-size:11.5px; color:#9ab09d; line-height:1.9;">
                 You are receiving this because you signed up to follow ThermaHive's progress.<br />
                 <a href="#" style="color:#5a7a62; text-decoration:none;">Unsubscribe</a> &nbsp;&bull;&nbsp; <a href="#" style="color:#5a7a62; text-decoration:none;">View in browser</a>
